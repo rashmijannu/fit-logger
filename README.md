@@ -2,12 +2,19 @@
 
 Fit Logger is a Spring Boot application for tracking fitness activities and logging workout data.
 
+## Tech Stack
+
+- **Spring Boot** (Java 17)
+- **MongoDB** (NoSQL database)
+- **Maven** (Build tool)
+
 ## Prerequisites
 - Java 17 (OpenJDK 17)
 - Maven 3.6+
+- MongoDB (running locally or accessible remotely)
 
 ## Getting Started
-
+ 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/rashmijannu/fit-logger.git
@@ -29,7 +36,7 @@ Fit Logger is a Spring Boot application for tracking fitness activities and logg
    ```
 
 ## Configuration
-Edit `src/main/resources/application.properties` to customize application settings.
+Edit `src/main/resources/application.properties` to customize application settings, including MongoDB connection details.
 
 ## Testing
 Run tests with:
@@ -40,6 +47,8 @@ mvn test
 ## Troubleshooting
 - Ensure you are using Java 17. Run `java -version` to check.
 - If you see `release version 17 not supported`, update your Java version.
+- Make sure MongoDB is running and accessible.
 
 ## License
 MIT
+
