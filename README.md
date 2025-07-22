@@ -12,6 +12,8 @@ Fit Logger is a Spring Boot application for tracking fitness activities and logg
 - Java 17 (OpenJDK 17)
 - Maven 3.6+
 - MongoDB (running locally or accessible remotely)
+- Docker (for containerization and deployment)
+- Swagger (API documentation available via Swagger UI)
 
 ## Getting Started
  
